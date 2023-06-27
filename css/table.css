@@ -1,0 +1,14 @@
+@media screen and (max-width:768px){
+    .head-container{
+        grid-template-columns:1fr;
+        padding-bottom:50px
+    }
+    .head-contaiener__img{
+        display:none
+    }
+    .services__dish{
+        grid-template-columns:repeat(auto-fit,minmax(135px,1fr));
+        grid-template-rows:repeat(2,minmax(135px,1fr));
+        grid-gap:25px
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:1024px){
+    .text__title{
+        font-size:2.5rem
+    }
+    .services__title,.home__title{
+        font-size:2rem
+    }
+    .home-container__dish{
+        grid-template-columns:repeat(auto-fit,minmax(100px,1fr))
+    }
+}
